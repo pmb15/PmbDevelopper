@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ma Boutique en Ligne</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links dropdown-menu" id="nav-links">
+                <li><a href="Acceuil.html">Accueil</a></li>
+                <li><a href="produit.htm">Produits</a></li>
+                <li><a href="contact.htm">Contact</a></li>
+                <li><a href="Index.htm">Panier</a></li>
+            </ul>
+
+            <div class="logo"><a href="https://cdn.dribbble.com/users/2609973/screenshots/5572100/media/e83fe9ba002987949c06846d835522d6.png?resize=320x240&vertical=center"><img src="https://cdn.dribbble.com/users/2609973/screenshots/5572100/media/e83fe9ba002987949c06846d835522d6.png?resize=320x240&vertical=center" alt="VOTRE LOGO"></a></div>
+            <div class="search-bar">
+                <input type="text" placeholder="Rechercher...">
+                <button>Rechercher</button>
+ <div class="user-menu">
+                <a href="connexion.htm" class="connexion">Connexion</a>
+                <a href="inscription.htm" class="inscription">Inscription</a>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="products" class="product-list">
+        <!-- Les produits seront affichés ici -->
+    </div>
+
+    <div id="cart" class="cart">
+        <h2>Panier</h2>
+        <ul id="cart-items">
+            <!-- Les articles du panier seront affichés ici -->
+        </ul>
+        <p>Total: <span id="cart-total">0.00</span> €</p>
+        <button id="checkout-btn">Payer</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
